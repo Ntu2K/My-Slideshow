@@ -1,14 +1,35 @@
-#coffee img {
-    height: 20vh;
-    width: 20vw;
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
 
-#sandwiches img{
-    height: 20vh;
-    width: 20vw;
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 50%;
+  text-align: center;
 }
 
-#netflix img{
-    height: 20vh;
-    width: 20vw;
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
+
+.active {
+  background-color: #717171;
+}
+
+
